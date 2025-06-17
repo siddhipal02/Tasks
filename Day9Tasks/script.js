@@ -12,7 +12,7 @@ function deleteLast() {
 }
 
 document.getElementById("display").addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" || event.key === "=") {
     calculate();
   }
 });
