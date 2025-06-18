@@ -31,3 +31,15 @@ cinema.shows[2] = {
     seatsAvailable: 7
 }
 console.log(cinema.shows);
+
+//Cancel booking and increase seats.
+let cancel = (movieName, seats) => {
+  cinema.shows.forEach(i => {
+            if(i.movie === movieName)
+            {
+                i.seatsAvailable = i.seatsAvailable + seats
+            }
+        })
+        console.log(cinema.shows);
+}
+cancel("Inception", 2);
