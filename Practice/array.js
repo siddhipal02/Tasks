@@ -1,0 +1,25 @@
+//frequency
+// let arr = [2,2,4]
+// let m = new Map();
+// for(let i=0;i< arr.length;i++)
+// {
+// m.set(arr[i], (m.get(arr[i]) || 0) +1)
+// }
+//     console.log(m);
+// for (let[key,value] of m)
+// {
+//     if(value ===1)
+//         console.log(key);
+// }
+
+
+//Find the maximum number in an array.
+// let arr= [2,5,1,7,,9,10]
+// let a= arr.reduce((x,y) => Math.max(x,y) , 0)
+// console.log(a);
+
+
+//Sort an array in ascending and descending order.
+let arr= [2,5,1,7,9,10]
+let a= arr.sort((x,y) => x-y)
+console.log(a, a.length);
