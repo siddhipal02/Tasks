@@ -48,10 +48,10 @@
 let str = "hgjhgug ghjgghjmn vghtsrtdu"
 let a = str.split(" ")
 console.log('>>>', a)
-for(let i in a)
+for(let i of a)
     {
-        a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1);
-        // console.log(a[i])
+        i = i.charAt(0).toUpperCase() + i.slice(1);
+         console.log(i)
     } 
     console.log(a.join(" "));
 
