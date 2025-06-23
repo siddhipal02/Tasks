@@ -39,5 +39,10 @@ employee.department.totalHours(employee.department.projects);
  console.log(employee.name + " works in " + employee.department.name + " department and knows " + employee.skills.toString());
 
  //Sort projects by hours (descending).
+//  console.log( '>>>>', employee.department.projects)
  employee.department.projects.sort((a, b) => b.hours - a.hours);
  console.log(employee.department.projects);
+
+
+
+

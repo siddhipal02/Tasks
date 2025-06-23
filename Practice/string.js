@@ -58,3 +58,21 @@ for(let i of a)
 //Check if a string contains another substring.
 // let s= "hello world"
 // console.log(s.includes("hello"));
+
+
+
+// let str = 'hello HELLO'
+
+// let newStr = {};
+
+
+// for(let i = 0; i < str.length; i++) {
+//     if(str[i] === " ") continue;
+//     if(newStr[str[i].toLocaleLowerCase()]) {
+//       newStr[str[i].toLocaleLowerCase()]++  
+//     } else {
+//         newStr[str[i].toLocaleLowerCase()] =1
+//     }
+// }
+
+// console.log(newStr);
