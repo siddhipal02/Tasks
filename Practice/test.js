@@ -31,11 +31,43 @@ const arr = [1,2,3,4,5,6]
 // If it returns falsy, the element is skipped.
 
 
-let str = "hello world"
-let a = str.split(" ")
-for(let i of a)
-{
-   i= i.charAt(0).toUpperCase() + i.slice(1)
-   console.log(i);
-}
+// let str = "hello world"
+// let a = str.split(" ")
+// for(let i of a)
+// {
+//    i= i.charAt(0).toUpperCase() + i.slice(1)
+//    console.log(i);
+// }
  
+// const a = 5;
+//     const b = "10"
+//     const result =`${a + +b}`
+//     console.log(result)
+//     console.log(typeof result)
+
+//     const result = "Hello" && "World" || 0 || null;
+// console.log(result);
+
+    const numbers = [1, 2, 3];
+    const a = numbers.map(num => num % 2 === 0); 
+    console.log(a);
+    
+
+    const nm = [1, 2, 3];
+    const b = nm.map((num) => {
+        if(num % 2 === 0)
+            return num;
+    })
+     console.log(b);
+
+
+    const n = [1, 2, 3];
+    const c = n.filter(num => num % 2 === 0); 
+    console.log(c);
+
+    const n1 = [1, 2, 3];
+    const d = n1.filter((num )=> {
+        if(num % 2 === 0)
+        return num;
+     })
+    console.log(d);
